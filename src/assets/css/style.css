@@ -1,0 +1,33 @@
+html,body{
+    margin:0;
+    padding: 0;
+}
+.bgimage{
+    width: 100%;
+    height: 657px;
+    background-image: url("../image/bgimage.jpg");
+    z-index: 0;
+}
+.pos{
+ position: absolute;
+ top:100px;
+ left:60%;
+ width:420px;
+ z-index: 1;
+ background-image: url("../image/login.jpg");
+}
+.ui-datepicker-calendar {
+    display: none;
+}
+label{
+    color: #fff;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 15px;
+}
+.user-image{
+  border-radius: 50%;
+  border:0.5px solid rgba(255, 255, 255, 0.424);
+}
