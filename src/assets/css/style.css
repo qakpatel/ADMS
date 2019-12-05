@@ -23,6 +23,9 @@ label{
     color: #fff;
 }
 .logo{
+    font-family: cursive;
+}
+.logo img{
     height: 40px;
     width: 40px;
     border-radius: 15px;

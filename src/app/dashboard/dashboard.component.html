@@ -1,9 +1,62 @@
 <app-navbar></app-navbar>
-<!-- <div class="container">
+<div class="container">
   <div class="row">
     <div class="col-md-6">
       <div class="card">
-        <div class="card-body"></div>
+        <div class="card-body">
+          <form [formGroup] = "loginForm" >
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" aria-describedby="usernameHelp" placeholder="Name" formControlName="name">
+            </div>
+            <div class="form-group">
+              <label for="account">A/c no</label>
+              <input type="text" class="form-control" id="account" placeholder="Account number" formControlName="account">
+            </div>
+             <div class="form-group">
+                <label for="deposite">2nd Deposite</label>
+                <input type="text" class="form-control" id="deposite" aria-describedby="portfolioHelp" placeholder="second deposite" formControlName="deposite">
+            </div>
+              <div class="row">
+                 <div class="col-md-4">
+                   <div class="form-group">
+                    <label for="tos">Tos</label>
+                    <input type="text" class="form-control" id="tos" placeholder="Tos" formControlName="tos">
+                  </div>
+                 </div>
+                 <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="pos">Pos</label>
+                        <input type="text" class="form-control" id="pos" placeholder="pos" formControlName="pos">
+                      </div>
+                 </div>
+                 <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="final">Final Ammount</label>
+                        <input type="text" class="form-control" id="final" placeholder="final ammount" formControlName="final">
+                      </div>
+              </div>
+              <div class="col-md-6"> 
+                  <div class="form-group">
+                      <label for="opening">A/c open Date</label>
+                      <input type="date" class="form-control" id="opening" placeholder="opening date" formControlName="opening">
+                    </div>
+              </div>
+              <div class="col-md-6"> 
+                  <div class="form-group">
+                      <label for="end">A/c end Date</label>
+                      <input type="date" class="form-control" id="end" placeholder="end date" formControlName="end">
+                    </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="mobile"></label>
+                    <input type="text" class="form-control" id="mobile" placeholder="Mobile" formControlName="mobile">
+                  </div>
+              </div> 
+              </div> 
+          </form>
+        </div>
       </div>
     </div>
     <div class="col-md-6">
@@ -22,5 +75,5 @@
       </div>
     </div>
   </div>
-</div> -->
+</div>
 
