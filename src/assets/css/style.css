@@ -34,3 +34,6 @@ label{
   border-radius: 50%;
   border:0.5px solid rgba(255, 255, 255, 0.424);
 }
+.padd10{
+    padding:10px;
+}
